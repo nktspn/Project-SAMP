@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Erica+One&display=swap');
+
+body{
+    background-image: url(123123.jpg) ;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+header{
+    background: #2D2D2E;
+    border-radius: 100px;
+    margin: 0 1 0 1;
+    opacity: 0.99;
+
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 20;
+}
+li{
+    display: inline;
+    margin: 0 20 0 20
+}
+a{
+    font-family: 'Erica One', cursive;
+    font-size: 57px;
+    color: gray;
+    text-decoration: none;
+    font-weight: 900;
+
+}
+a:hover{
+    color:dimgray;
+    cursor:pointer;
+    transition: all .2s ease-in-out
+}
+div{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: monospace;
+    margin: 300
+}
+.auto {
+    color: #661515;
+    margin-left: 150px;
+    font-weight: 900;
+    font-size: 50;
+}
+.auto:hover {
+    color: #820000
+}
+.lider {
+
+}
+.helper {
+
+}
+.admin {
+
+}
+.gl admin {
+
+}
