@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Erica+One&display=swap');
 
 body{
-    background-image: url(123123.jpg) ;
+     background: url(123123.jpg) top / 100vw 100vh no-repeat,
+    url(234234.jpg) bottom / 100vw 100vh no-repeat;
     margin: 0;
     padding: 0;
-    background-repeat: no-repeat;
 }
 header{
     background: #2D2D2E;
@@ -17,10 +17,18 @@ ul{
     list-style: none;
     margin: 0;
     padding: 20;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 20 0 20
 }
 li{
-    display: inline;
-    margin: 0 20 0 20
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 a{
     font-family: 'Erica One', cursive;
@@ -35,12 +43,6 @@ a:hover{
     cursor:pointer;
     transition: all .2s ease-in-out
 }
-div{
-    font-size: 30px;
-    font-weight: 900;
-    font-family: monospace;
-    margin: 300
-}
 .auto {
     color: #661515;
     margin-left: 150px;
@@ -50,15 +52,127 @@ div{
 .auto:hover {
     color: #820000
 }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin-top: 100px;
+}
+
 .lider {
+    flex-direction: column;
+    border: 5px solid black;
+    background-color:gray;
+    border-radius: 5px;
+    width: 350px;
 
 }
 .helper {
-
+    flex-direction: column;
+    border: 5px solid black;
+    background-color:gray;
+    border-radius: 5px;
+    width: 350px;
 }
 .admin {
-
+    flex-direction: column;
+    border: 5px solid black;
+    background-color:gray;
+    border-radius: 5px;
+    width: 350px;
 }
-.gl admin {
-
+.gl-admin {
+    flex-direction: column;
+    border: 5px solid black;
+    background-color:gray;
+    border-radius: 5px;
+    width: 350px;
 }
+
+img{
+    height: 250px;
+    width: 340px;
+    padding: 5px;
+}
+
+h3 {
+    font-family: 'Erica One', cursive;
+    font-size: 33px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.price {
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: 'Erica One', cursive;
+    font-size: 33px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.price {
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.opisanie {
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0 0 0 10;
+    padding: 20 0 20 0;
+}
+button {
+    font-family: 'Erica One', cursive;
+    font-size: 30px;
+    font-weight: 900;
+    width: 100%;
+    background: dimgray;
+}
+
+button:hover {
+    color:yellow;
+    cursor:pointer;
+    transition: all .2s ease-in-out;
+}
+.lider> .opisanie {
+    margin-bottom: 66px
+}
+.helper > .opisanie {
+    margin-bottom: 66px
+}
+.admin > .opisanie {
+    margin-bottom: 66px
+}
+
+h1 {
+    display: flex;
+    margin-left: 100px;
+    font-family: 'Erica One', cursive;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.opisanie-h1 {
+    display: flex;
+    font-family: 'Erica One', cursive;
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: 80px;
+    margin-right: 300px;
+}
+
